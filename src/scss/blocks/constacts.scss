@@ -8,11 +8,11 @@
   }
 
   @media (max-width: 620px) {
-    padding-top: 0;
     grid-row: 3 / 4;
     grid-column: 1 / 2;
     width: 280px;
     margin: 0 auto;
+    padding-top: 0;
   }
 }
 

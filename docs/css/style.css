@@ -10,6 +10,86 @@
 /* ------------------------------------*|
   #SCSS-variables
 /*------------------------------------ */
+/*
+Style with support for rainbow parens
+*/
+.hljs {
+  background: #474949;
+  color: #d1d9e1;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #969896;
+  font-style: italic;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-type,
+.hljs-addition {
+  color: #cc99cc;
+}
+
+.hljs-number,
+.hljs-selector-attr,
+.hljs-selector-pseudo {
+  color: #f99157;
+}
+
+.hljs-string,
+.hljs-doctag,
+.hljs-regexp {
+  color: #8abeb7;
+}
+
+.hljs-title,
+.hljs-name,
+.hljs-section,
+.hljs-built_in {
+  color: #b5bd68;
+}
+
+.hljs-variable,
+.hljs-template-variable,
+.hljs-selector-id,
+.hljs-title.class_,
+.hljs-class .hljs-title {
+  color: #ffcc66;
+}
+
+.hljs-section,
+.hljs-name,
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-symbol,
+.hljs-bullet,
+.hljs-subst,
+.hljs-meta,
+.hljs-link {
+  color: #f99157;
+}
+
+.hljs-deletion {
+  color: #dc322f;
+}
+
+.hljs-formula {
+  background: #eee8d5;
+}
+
+.hljs-attr,
+.hljs-attribute {
+  color: #81a2be;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
 *,
 *::before,
 *::after {
@@ -487,11 +567,11 @@ ul {
 }
 @media (max-width: 620px) {
   .contacts {
-    padding-top: 0;
     grid-row: 3/4;
     grid-column: 1/2;
     width: 280px;
     margin: 0 auto;
+    padding-top: 0;
   }
 }
 
@@ -611,35 +691,39 @@ ul {
      object-fit: cover;
 }
 
+.code__title {
+  margin: 0;
+  margin-bottom: 10px;
+}
 @media (max-width: 820px) {
-  .code {
-    width: 500px;
-    margin: 0 auto;
-    font-size: 14px;
-  }
-}
-@media (max-width: 540px) {
-  .code {
-    width: 400px;
-    margin: 0 auto;
-    font-size: 12px;
-  }
-}
-@media (max-width: 440px) {
-  .code {
-    width: 100%;
-    margin: 0 auto;
-    font-size: 10px;
+  .code__title {
+    text-align: center;
   }
 }
 
-.code__title {
-  margin: 0;
+.code__codewars-link {
+  display: block;
+  max-width: 400px;
+  transition: opacity 200ms ease 0s;
+}
+@media (max-width: 820px) {
+  .code__codewars-link {
+    margin: auto;
+    margin-bottom: 25px;
+  }
+}
+.code__codewars-link:hover, .code__codewars-link:focus {
+  opacity: 0.8;
 }
 
 .code__pre {
   margin: 0;
   margin-top: -10px;
+}
+@media (max-width: 820px) {
+  .code__pre {
+    display: none;
+  }
 }
 
 .code__code {
