@@ -8,10 +8,10 @@
 }
 
 .header__title-box {
-  width: 500px;
+  width: 400px;
   margin: 0 auto;
-  padding: 40px;
-  border: 2px solid var(--color-dark-gray);
+  padding: 20px;
+  border: 1px solid var(--color-silver);
   text-align: center;
   background-color: var(--color-white);
   outline: 10px solid var(--color-white);
@@ -30,27 +30,27 @@
 
 .header__title {
   margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   color: var(--color-dark-gray);
-  font-size: 35px;
+  font-size: 25px;
   letter-spacing: 5px;
   text-transform: uppercase;
 
   @media (max-width: 530px) {
-    margin-bottom: 10px;
-    font-size: 19px;
+    margin-bottom: 5px;
+    font-size: 15px;
     letter-spacing: 2px;
   }
 
   @media (max-width: 330px) {
-    font-size: 18px;
+    font-size: 13px;
   }
 }
 
 .header__subtitle {
   margin: 0;
   color: var(--color-gray);
-  font-size: 22px;
+  font-size: 16px;
   font-family: "PT Serif", serif;
 
   @media (max-width: 500px) {
