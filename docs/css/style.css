@@ -558,6 +558,7 @@ ul {
 
 .contacts {
   padding-top: 30px;
+  padding-left: 20px;
 }
 @media (max-width: 1150px) {
   .contacts {
@@ -578,34 +579,37 @@ ul {
 
 .contacts__item {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
 }
 .contacts__item:hover a, .contacts__item:focus a {
   opacity: 0.6;
 }
-.contacts__item::after {
-  content: "";
+.contacts__item::before {
+  display: block;
   width: 20px;
   height: 20px;
+  margin-right: 20px;
   background-repeat: no-repeat;
   background-size: contain;
+  content: "";
 }
-.contacts__item--mail::after {
+.contacts__item--mail::before {
+  height: 16px;
   background-image: url("../img/icons/icon-mail.svg");
 }
-.contacts__item--tel::after {
+.contacts__item--tel::before {
   background-image: url("../img/icons/icon-tel.svg");
 }
-.contacts__item--address::after {
+.contacts__item--address::before {
   background-image: url("../img/icons/icon-address.svg");
 }
-.contacts__item--github::after {
+.contacts__item--github::before {
   background-image: url("../img/icons/icon-gitHub.svg");
 }
-.contacts__item--telegram::after {
+.contacts__item--telegram::before {
   background-image: url("../img/icons/icon-telegram.svg");
 }
-.contacts__item--discord::after {
+.contacts__item--discord::before {
   background-image: url("../img/icons/icon-discord.svg");
 }
 
