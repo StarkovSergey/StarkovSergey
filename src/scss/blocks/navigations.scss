@@ -20,12 +20,13 @@
   display: block;
   padding: 5px;
   color: var(--color-dark-gray);
+  font-size: 18px;
   text-transform: uppercase;
-  transition: opacity 200ms ease 0s;
+  transition: color 200ms ease 0s;
 
   &:hover,
   &:focus {
-    opacity: 0.6;
+    color: #f5f378;
   }
 
   @media (max-width: 750px) {
@@ -95,6 +96,7 @@
 
 .navigation--opened .navigation__toggle {
   top: 15px;
+
   &::before,
   &::after {
     position: relative;

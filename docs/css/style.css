@@ -429,11 +429,12 @@ ul {
   display: block;
   padding: 5px;
   color: var(--color-dark-gray);
+  font-size: 18px;
   text-transform: uppercase;
-  transition: opacity 200ms ease 0s;
+  transition: color 200ms ease 0s;
 }
 .navigation__link:hover, .navigation__link:focus {
-  opacity: 0.6;
+  color: #f5f378;
 }
 @media (max-width: 750px) {
   .navigation__link {
@@ -668,6 +669,13 @@ ul {
 
 .projects__item {
   text-align: center;
+}
+
+.projects__link {
+  transition: opacity 300ms ease 0s;
+}
+.projects__link:hover, .projects__link:focus {
+  opacity: 0.8;
 }
 
 .projects__title {

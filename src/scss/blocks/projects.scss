@@ -22,6 +22,12 @@
 }
 
 .projects__link {
+  transition: opacity 300ms ease 0s;
+
+  &:hover,
+  &:focus {
+    opacity: 0.8;
+  }
 }
 
 .projects__title {
