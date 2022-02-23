@@ -1,0 +1,42 @@
+.footer {
+  padding: 20px 0;
+  background-color: var(--color-bisque);
+}
+
+.footer__container {
+  display: flex;
+  align-items: center;
+}
+
+.footer__gitHub-link {
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin-left: auto;
+  background-image: url(../img/icons/icon-gitHub.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: opacity 200ms ease 0s;
+
+  &:hover,
+  &:focus {
+    opacity: 0.6;
+  }
+}
+
+.footer__date {
+  margin-left: 40px;
+
+  @media (max-width: 400px) {
+    margin-left: 20px;
+  }
+}
+
+.rs-school__logo {
+  transition: opacity 200ms ease 0s;
+
+  &:hover,
+  &:focus {
+    opacity: 0.6;
+  }
+}
