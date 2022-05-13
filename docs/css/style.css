@@ -703,6 +703,10 @@ ul {
      object-fit: cover;
 }
 
+.code {
+  margin-bottom: 40px;
+}
+
 .code__title {
   margin: 0;
   margin-bottom: 10px;
