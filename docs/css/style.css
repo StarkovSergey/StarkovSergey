@@ -527,8 +527,8 @@ ul {
 
 .photo {
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   margin: 0 auto;
   margin-top: 10px;
   border-radius: 50%;
@@ -552,6 +552,7 @@ ul {
   position: absolute;
   -o-object-fit: cover;
      object-fit: cover;
+  bottom: 0;
   width: 120%;
   height: 120%;
 }
