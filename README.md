@@ -1,4 +1,9 @@
-H! I'm Sergey. I'm very interested in junior frontend developer position. I like developing web interfaces. I'm interested in accessibility, semantic and user experience.
-Although I have no commercial development experience yet, I have strong learning ability and motivation. Also, I have 10 years of experience in pharmaceutical area. I know modern technologies quite well and I am ready to learn work processes from the beginning.
+#### Welcome to my Github profile!
 
-[My CV](https://starkovsergey.github.io/StarkovSergey)
+I’m a front-end developer in love with the Web and CSS🖤
+My professional interests include accessibility, semantics, modern CSS and user experience.
+Main tools: React, Redux, TS.
+
+I like the idea of open source and I'm open for cooperation.
+
+📜[My Portfolio](https://starkovsergey.github.io/StarkovSergey)
