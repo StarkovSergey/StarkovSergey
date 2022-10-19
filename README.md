@@ -7,5 +7,3 @@ My professional interests include accessibility, semantics, modern CSS and user 
 I like the idea of open source and I'm open for cooperation.
 - [Telegram](https://t.me/winter_song)
 - [CV](https://starkovsergey.github.io/StarkovSergey)
-
-![](https://www.codewars.com/users/StarkovSergey/badges/small?theme=light)
