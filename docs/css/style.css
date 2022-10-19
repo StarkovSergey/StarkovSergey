@@ -135,9 +135,9 @@ button {
   margin: 0;
   color: var(--color-dark-gray);
   font-weight: 400;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
-  font-family: "PT Sans", sans-serif;
-  line-height: 1.4;
+  line-height: 1.5;
   background-color: var(--color-white);
 }
 
@@ -327,8 +327,8 @@ ul {
 }
 
 .section__item {
-  font-weight: bold;
-  text-transform: uppercase;
+  color: var(--color-gray);
+  font-weight: medium;
 }
 
 .section__item + .section__item {
@@ -538,13 +538,14 @@ ul {
   .photo {
     grid-row: 2/3;
     grid-column: 2/3;
-    margin-top: 0;
+    margin-top: 50px;
   }
 }
 @media (max-width: 620px) {
   .photo {
     grid-row: 2/3;
     grid-column: 1/2;
+    margin-top: 0;
   }
 }
 
@@ -660,6 +661,8 @@ ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   row-gap: 20px;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
 }
 @media (max-width: 1150px) {
   .projects__list {
@@ -686,6 +689,7 @@ ul {
 .projects__title {
   margin: 0;
   margin-bottom: 10px;
+  font-size: 18px;
 }
 
 .projects__image {
@@ -702,6 +706,12 @@ ul {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.projects__text {
+  display: block;
+  margin-top: 16px;
+  margin-bottom: 5px;
 }
 
 .code {

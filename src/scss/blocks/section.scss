@@ -164,8 +164,8 @@
 }
 
 .section__item {
-  font-weight: bold;
-  text-transform: uppercase;
+  color: var(--color-gray);
+  font-weight: medium;
 }
 
 .section__item + .section__item {
