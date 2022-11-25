@@ -8,4 +8,4 @@ I like the idea of open source and I'm open for cooperation.
 - [Telegram](https://t.me/winter_song)
 - [CV](https://starkovsergey.github.io/StarkovSergey)
 
-![image](https://www.codewars.com/users/StarkovSergey/badges/micro?theme=light)
+[![image](https://www.codewars.com/users/StarkovSergey/badges/micro?theme=light)](https://www.codewars.com/users/StarkovSergey)
