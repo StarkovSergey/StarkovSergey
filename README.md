@@ -7,5 +7,3 @@ Main tools: React, TS, CSS. My professional interests include accessibility, mod
 I like the idea of open source and I'm open for cooperation.
 
 [![image](https://www.codewars.com/users/StarkovSergey/badges/micro?theme=light)](https://www.codewars.com/users/StarkovSergey)
-
-![StarkovSergey's LeetCode stats](https://leetcode-badge-sage.vercel.app/badge/StarkovSergey?theme={light|dark|neutral})
